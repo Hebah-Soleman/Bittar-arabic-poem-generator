@@ -15,14 +15,14 @@
     <title>بيطار</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
 
     <!-- Additional CSS Files -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/templatemo-chain-app-dev.css">
-    <link rel="stylesheet" href="assets/css/animated.css">
-    <link rel="stylesheet" href="assets/css/owl.css">
+    <link rel="stylesheet" href="static/assets/css/templatemo-chain-app-dev.css">
+    <link rel="stylesheet" href="static/assets/css/animated.css">
+    <link rel="stylesheet" href="static/assets/css/owl.css">
 
   </head>
 
@@ -47,7 +47,7 @@
         <div class="row">
             <div class="col-12">
                 <nav class="main-nav">
-                  <img class="logo" src="assets/images/logo2.png">
+                  <img class="logo" src="static/assets/images/logo2.png">
                   
                   <nav>
                       <ul class="nav_links">
@@ -97,7 +97,7 @@
             </div>
             <div class="col-lg-6">
               <div class="right-image wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
-                <img src="assets/images/logo2.png" alt="" width="100%">
+                <img src="static/assets/images/logo2.png" alt="" width="100%">
               </div>
             </div>
           </div>
@@ -114,7 +114,7 @@
         <div class="col-lg-8 offset-lg-2">
           <div class="section-heading  wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
             <h4>نقدم <em>خدمات &amp; ميزات</em> لك</h4>
-            <img src="assets/images/heading-line-dec.png" alt="">
+            <img src="static/assets/images/heading-line-dec.png" alt="">
             <p>موقع بيطار يقدم خدمات كتابه الشعر باستخدام أحدث تقنيات الذكاء الاصطناعي </p>
           </div>
         </div>
@@ -185,7 +185,7 @@
                       <div>
                         <div class="right-content">
 
-                          <form >
+                          <form action="/" method="POST">
                             <label for="fname">ايش موضوعك ؟</label>
                             <input type="text" id="fname" name="firstname" placeholder="مثال : الوطن ">
 
@@ -194,6 +194,8 @@
       
                             <input type="submit" value="إرسال">
                           </form>
+
+                          {% print(result) %}
                         
                           
                       
@@ -266,12 +268,12 @@
 
 
   <!-- Scripts -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/js/owl-carousel.js"></script>
-  <script src="assets/js/animation.js"></script>
-  <script src="assets/js/imagesloaded.js"></script>
-  <script src="assets/js/popup.js"></script>
-  <script src="assets/js/custom.js"></script>
+  <script src="static/vendor/jquery/jquery.min.js"></script>
+  <script src="static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="static/assets/js/owl-carousel.js"></script>
+  <script src="static/assets/js/animation.js"></script>
+  <script src="static/assets/js/imagesloaded.js"></script>
+  <script src="static/assets/js/popup.js"></script>
+  <script src="static/assets/js/custom.js"></script>
 </body>
 </html>
